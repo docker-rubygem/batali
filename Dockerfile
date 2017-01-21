@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.2.6
+ENV VERSION=0.1.22
 
 RUN gem install batali --version ${VERSION} --no-format-exec
 
